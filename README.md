@@ -20,8 +20,12 @@ SwiftUI, без внешних зависимостей, бандл 2,8 MB.
 ```bash
 git clone https://github.com/nvsces/DiskLens.git
 cd DiskLens
-./make_app.sh && open DiskLens.app     # сборка через SwiftPM
+./make_app.sh && open DiskLens.app
 ```
+
+`make_app.sh` собирает через `xcodebuild` универсальный бинарник (arm64 + x86_64).
+Сборка через `swift build` не годится для распространения: она прописывает в бинарник
+rpath на локальный Xcode-тулчейн, и на машине без Xcode приложение не запускается.
 
 `./make_dmg.sh 1.0` соберёт DMG для распространения: подпишет Developer ID с hardened runtime,
 отправит на нотаризацию и прикрепит штамп. Без сертификата в связке ключей скрипт честно
