@@ -13,12 +13,7 @@ SwiftUI, без внешних зависимостей, бандл 2,8 MB.
 **Готовое приложение** — скачайте `DiskLens.dmg` со [страницы релизов](../../releases),
 перетащите в «Программы».
 
-Приложение подписано ad-hoc, поэтому при первом запуске macOS покажет предупреждение:
-правый клик по иконке → «Открыть» → «Открыть». Либо снимите карантин:
-
-```bash
-xattr -dr com.apple.quarantine /Applications/DiskLens.app
-```
+Релизы подписаны Developer ID и нотаризованы Apple — открываются обычным двойным кликом.
 
 **Из исходников** (Xcode 15+ / Swift 5.9+, macOS 14+):
 
@@ -28,7 +23,14 @@ cd DiskLens
 ./make_app.sh && open DiskLens.app     # сборка через SwiftPM
 ```
 
-`./make_dmg.sh 1.0` соберёт DMG для распространения.
+`./make_dmg.sh 1.0` соберёт DMG для распространения: подпишет Developer ID с hardened runtime,
+отправит на нотаризацию и прикрепит штамп. Без сертификата в связке ключей скрипт честно
+предупредит и подпишет ad-hoc. Разовая настройка нотаризации:
+
+```bash
+xcrun notarytool store-credentials notary \
+  --apple-id <ваш@apple.id> --team-id <TEAM_ID> --password <app-specific-password>
+```
 
 **В Xcode** — откройте `DiskLens.xcodeproj` (⌘R для запуска, отладчик и превью работают).
 Чтобы подписать своей учётной записью разработчика: выберите таргет DiskLens →
