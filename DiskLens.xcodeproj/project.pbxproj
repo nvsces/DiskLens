@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663C6BFBDD175837BA8457E0 /* AndroidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF67C858775AF4B864DF78 /* AndroidManager.swift */; };
+		232F15A3264E52ADBC3541D4 /* AndroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81402AEABD55526A12EE97B /* AndroidView.swift */; };
+		7AB157BD362F5415AC482C3C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41823FF118205C2C9746C152 /* AppModel.swift */; };
+		744834913DBC501BBFDDA556 /* DevToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33300D7917375038A5C5CF00 /* DevToolsManager.swift */; };
+		EE4335A34E6E55238F19314B /* DevToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE35442048DB554993860BB6 /* DevToolsView.swift */; };
+		D061A3C130AF5CAD90E68E30 /* DiskLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BEFAFAC5D5ABD826608CE /* DiskLensApp.swift */; };
+		91A513B7E7F95B229BEF0BCF /* DiskScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC66CCEA9C55368D8ED162 /* DiskScanner.swift */; };
+		427AA70ED7F553189EEB2FD2 /* DockerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5570E5C7C8F596ABD3E848E /* DockerManager.swift */; };
+		B20774EFD71355078A02BE85 /* DockerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32C492161DF545296223504 /* DockerView.swift */; };
+		7648E72876DC5502B71F5347 /* ExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6466EAB8F6F5DE6A16A7306 /* ExplorerView.swift */; };
+		6AF80900F1DC53F6AFBE1053 /* FileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD21FA1DE65F469605A990 /* FileNode.swift */; };
+		CF14D919C3CC552B968497ED /* JunkFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB83AB510C25DA3B815D4B4 /* JunkFinder.swift */; };
+		D8F9044206E0561FADEE4FD2 /* JunkRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B93B5CFB205785858B9AD2 /* JunkRules.swift */; };
+		2D990D59914C54B6ABFD8C99 /* JunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1DB7DD58257CCB372872B /* JunkView.swift */; };
+		307838840EF9515EA9B5B192 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874CE5764A5E5AF3B13A128C /* OverviewView.swift */; };
+		8BD94B1AA0AF5EF495CAA6F2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A736D511B985E4A88F5697D /* RootView.swift */; };
+		76EBAF779EBB5582A9BB7F18 /* SafeDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F315736D7945BA7BE008B90 /* SafeDelete.swift */; };
+		9D1A6F21312C547C85916490 /* SimulatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B33094A9B5B99AE161D2D /* SimulatorManager.swift */; };
+		4C6DD19FD8385CB7966F89F5 /* SimulatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E850E59CC1175C1EB41BB28A /* SimulatorsView.swift */; };
+		944A77F067695613A55CF4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B745939975549B497F023 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EAF67C858775AF4B864DF78 /* AndroidManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidManager.swift; sourceTree = "<group>"; };
+		D81402AEABD55526A12EE97B /* AndroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidView.swift; sourceTree = "<group>"; };
+		41823FF118205C2C9746C152 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		33300D7917375038A5C5CF00 /* DevToolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevToolsManager.swift; sourceTree = "<group>"; };
+		FE35442048DB554993860BB6 /* DevToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevToolsView.swift; sourceTree = "<group>"; };
+		7C0BEFAFAC5D5ABD826608CE /* DiskLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskLensApp.swift; sourceTree = "<group>"; };
+		73AC66CCEA9C55368D8ED162 /* DiskScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskScanner.swift; sourceTree = "<group>"; };
+		F5570E5C7C8F596ABD3E848E /* DockerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerManager.swift; sourceTree = "<group>"; };
+		B32C492161DF545296223504 /* DockerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerView.swift; sourceTree = "<group>"; };
+		E6466EAB8F6F5DE6A16A7306 /* ExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerView.swift; sourceTree = "<group>"; };
+		2DBD21FA1DE65F469605A990 /* FileNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNode.swift; sourceTree = "<group>"; };
+		FCB83AB510C25DA3B815D4B4 /* JunkFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkFinder.swift; sourceTree = "<group>"; };
+		E9B93B5CFB205785858B9AD2 /* JunkRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkRules.swift; sourceTree = "<group>"; };
+		FAA1DB7DD58257CCB372872B /* JunkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkView.swift; sourceTree = "<group>"; };
+		874CE5764A5E5AF3B13A128C /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		5A736D511B985E4A88F5697D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7F315736D7945BA7BE008B90 /* SafeDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDelete.swift; sourceTree = "<group>"; };
+		5B9B33094A9B5B99AE161D2D /* SimulatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorManager.swift; sourceTree = "<group>"; };
+		E850E59CC1175C1EB41BB28A /* SimulatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorsView.swift; sourceTree = "<group>"; };
+		2C5B745939975549B497F023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		8D8AD483FF555E249BB7E6C1 /* DiskLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E738CFA780557E8BA185C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82997D690E13507D8540DC43 = {
+			isa = PBXGroup;
+			children = (
+				D1DF8F880DA45FBD9A0A5799 /* DiskLens */,
+				2C5B745939975549B497F023 /* Assets.xcassets */,
+				340199CF561F5FC9B66B44C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DF8F880DA45FBD9A0A5799 /* DiskLens */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF67C858775AF4B864DF78 /* AndroidManager.swift */,
+				D81402AEABD55526A12EE97B /* AndroidView.swift */,
+				41823FF118205C2C9746C152 /* AppModel.swift */,
+				33300D7917375038A5C5CF00 /* DevToolsManager.swift */,
+				FE35442048DB554993860BB6 /* DevToolsView.swift */,
+				7C0BEFAFAC5D5ABD826608CE /* DiskLensApp.swift */,
+				73AC66CCEA9C55368D8ED162 /* DiskScanner.swift */,
+				F5570E5C7C8F596ABD3E848E /* DockerManager.swift */,
+				B32C492161DF545296223504 /* DockerView.swift */,
+				E6466EAB8F6F5DE6A16A7306 /* ExplorerView.swift */,
+				2DBD21FA1DE65F469605A990 /* FileNode.swift */,
+				FCB83AB510C25DA3B815D4B4 /* JunkFinder.swift */,
+				E9B93B5CFB205785858B9AD2 /* JunkRules.swift */,
+				FAA1DB7DD58257CCB372872B /* JunkView.swift */,
+				874CE5764A5E5AF3B13A128C /* OverviewView.swift */,
+				5A736D511B985E4A88F5697D /* RootView.swift */,
+				7F315736D7945BA7BE008B90 /* SafeDelete.swift */,
+				5B9B33094A9B5B99AE161D2D /* SimulatorManager.swift */,
+				E850E59CC1175C1EB41BB28A /* SimulatorsView.swift */,
+			);
+			name = DiskLens;
+			path = Sources/DiskLens;
+			sourceTree = "<group>";
+		};
+		340199CF561F5FC9B66B44C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D8AD483FF555E249BB7E6C1 /* DiskLens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6E564BF80915FDF8A014E83 /* DiskLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D72E4F9CFB7513D956F7ED0 /* Build configuration list for PBXNativeTarget "DiskLens" */;
+			buildPhases = (
+				5D532A57F1BD54E589C2662B /* Sources */,
+				B4E738CFA780557E8BA185C2 /* Frameworks */,
+				FE528AE31A0D5E0C8EDF8243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiskLens;
+			productName = DiskLens;
+			productReference = 8D8AD483FF555E249BB7E6C1 /* DiskLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE70A1B6CA45CFAA4E0660F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C6E564BF80915FDF8A014E83 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A8237D716140508BB6A2E3F3 /* Build configuration list for PBXProject "DiskLens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82997D690E13507D8540DC43;
+			productRefGroup = 340199CF561F5FC9B66B44C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E564BF80915FDF8A014E83 /* DiskLens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE528AE31A0D5E0C8EDF8243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944A77F067695613A55CF4A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D532A57F1BD54E589C2662B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663C6BFBDD175837BA8457E0 /* AndroidManager.swift in Sources */,
+				232F15A3264E52ADBC3541D4 /* AndroidView.swift in Sources */,
+				7AB157BD362F5415AC482C3C /* AppModel.swift in Sources */,
+				744834913DBC501BBFDDA556 /* DevToolsManager.swift in Sources */,
+				EE4335A34E6E55238F19314B /* DevToolsView.swift in Sources */,
+				D061A3C130AF5CAD90E68E30 /* DiskLensApp.swift in Sources */,
+				91A513B7E7F95B229BEF0BCF /* DiskScanner.swift in Sources */,
+				427AA70ED7F553189EEB2FD2 /* DockerManager.swift in Sources */,
+				B20774EFD71355078A02BE85 /* DockerView.swift in Sources */,
+				7648E72876DC5502B71F5347 /* ExplorerView.swift in Sources */,
+				6AF80900F1DC53F6AFBE1053 /* FileNode.swift in Sources */,
+				CF14D919C3CC552B968497ED /* JunkFinder.swift in Sources */,
+				D8F9044206E0561FADEE4FD2 /* JunkRules.swift in Sources */,
+				2D990D59914C54B6ABFD8C99 /* JunkView.swift in Sources */,
+				307838840EF9515EA9B5B192 /* OverviewView.swift in Sources */,
+				8BD94B1AA0AF5EF495CAA6F2 /* RootView.swift in Sources */,
+				76EBAF779EBB5582A9BB7F18 /* SafeDelete.swift in Sources */,
+				9D1A6F21312C547C85916490 /* SimulatorManager.swift in Sources */,
+				4C6DD19FD8385CB7966F89F5 /* SimulatorsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		515780346BFE51268A9DB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C913DC7720A588196713F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6EF9BE47BB35C39A95E48F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DiskLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvsces.disklens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C864147E8AC55D0B728AC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DiskLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvsces.disklens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8237D716140508BB6A2E3F3 /* Build configuration list for PBXProject "DiskLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515780346BFE51268A9DB5DF /* Debug */,
+				8C913DC7720A588196713F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D72E4F9CFB7513D956F7ED0 /* Build configuration list for PBXNativeTarget "DiskLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EF9BE47BB35C39A95E48F0 /* Debug */,
+				4C864147E8AC55D0B728AC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE70A1B6CA45CFAA4E0660F /* Project object */;
+}

@@ -4,3 +4,5 @@ DiskLens.app/
 .DS_Store
 .swiftpm/
 xcuserdata/
+DiskLens.xcodeproj/xcuserdata/
+DiskLens.xcodeproj/project.xcworkspace/xcuserdata/

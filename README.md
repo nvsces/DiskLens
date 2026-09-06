@@ -23,13 +23,20 @@ xattr -dr com.apple.quarantine /Applications/DiskLens.app
 **Из исходников** (Xcode 15+ / Swift 5.9+, macOS 14+):
 
 ```bash
-git clone <URL-репозитория>
+git clone https://github.com/nvsces/DiskLens.git
 cd DiskLens
-./make_app.sh
-open DiskLens.app
+./make_app.sh && open DiskLens.app     # сборка через SwiftPM
 ```
 
 `./make_dmg.sh 1.0` соберёт DMG для распространения.
+
+**В Xcode** — откройте `DiskLens.xcodeproj` (⌘R для запуска, отладчик и превью работают).
+Чтобы подписать своей учётной записью разработчика: выберите таргет DiskLens →
+**Signing & Capabilities** → Team. Для распространения нужен сертификат
+**Developer ID Application**, иначе Gatekeeper на чужих машинах покажет предупреждение.
+
+Проект и пакет собирают одно и то же из `Sources/DiskLens`; при добавлении файла
+он подхватится SwiftPM автоматически, а в `.xcodeproj` его нужно добавить в таргет.
 
 ## Разделы
 
