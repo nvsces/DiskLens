@@ -1,0 +1,6 @@
+.build/
+DiskLens.app/
+*.dmg
+.DS_Store
+.swiftpm/
+xcuserdata/
