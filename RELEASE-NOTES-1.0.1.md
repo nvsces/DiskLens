@@ -20,7 +20,15 @@ Xcode-тулчейн (`/Applications/Xcode.app/.../swift-6.2/macosx`), а час
 
 ### Установка
 
-Скачайте `DiskLens-1.0.1.dmg` и перетащите в «Программы». Требуется macOS 14+.
+Скачайте `DiskLens-1.0.1.dmg` **браузером с этой страницы** и перетащите в «Программы».
+Требуется macOS 14+.
+
+Если DMG попал к вам через мессенджер, macOS может отказать в запуске
+(`File created by an AppSandbox`) — снимите атрибуты карантина:
+
+```bash
+xattr -cr /Applications/DiskLens.app
+```
 
 **SHA-256:** `f867ca79b9a71f9a0c3a424363170ac1cf2b1cea9e2412b1e938bfdb706678ea`
 **Подпись:** Developer ID Application: Dmitrii Shanygin (DT7W5LCT3Z)
