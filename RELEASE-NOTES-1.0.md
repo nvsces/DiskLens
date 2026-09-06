@@ -25,13 +25,11 @@
 
 ### Установка
 
-Скачайте `DiskLens-1.0.dmg`, перетащите в «Программы». Приложение подписано ad-hoc,
-поэтому при первом запуске: правый клик → «Открыть» → «Открыть», либо
+Скачайте `DiskLens-1.0.dmg` и перетащите в «Программы». Приложение подписано
+Developer ID и нотаризовано Apple — открывается обычным двойным кликом,
+без предупреждений Gatekeeper.
 
-```bash
-xattr -dr com.apple.quarantine /Applications/DiskLens.app
-```
+Требуется macOS 14+ (Apple Silicon и Intel).
 
-Требуется macOS 14+.
-
-**SHA-256:** `8375c984f3b1340f569b3f481e87806ee4a9443bfded2d56bf65f199486cd7ae`
+**SHA-256:** `52ca810a0cf17979c9dd48ac47d50835fe074e9174366dc5dd1af1fc0e633acb`
+**Подпись:** Developer ID Application: Dmitrii Shanygin (DT7W5LCT3Z)
